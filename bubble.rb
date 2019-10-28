@@ -19,10 +19,6 @@ def bubble_sort(arr)
   arr
 end
 
-# Uncomment to test the method
-# print bubble_sort([4, 3, 78, 2, 0, 2])
-# => [0,2,2,3,4,78]
-
 def bubble_sort_by(arr)
   iterations = 0
   loop do
@@ -42,7 +38,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-
-# Uncomment to test the method
-# print bubble_sort_by(["hi", "hello", "hey"]) { |left,right| left.length - right.length }
-#  => ["hi", "hey", "hello"]
